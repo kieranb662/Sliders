@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "bez",
+        "repositoryURL": "https://github.com/kieranb662/bez.git",
+        "state": {
+          "branch": null,
+          "revision": "3a3319c64431056b277ece9ea9780799c2ed4cf0",
+          "version": "1.0.8"
+        }
+      },
+      {
+        "package": "CGExtender",
+        "repositoryURL": "https://github.com/kieranb662/CGExtender.git",
+        "state": {
+          "branch": null,
+          "revision": "3417457a041a238f4b0df9d702fd8d85bbdd6810",
+          "version": "1.0.4"
+        }
+      },
+      {
+        "package": "Shapes",
+        "repositoryURL": "https://github.com/kieranb662/SwiftUI-Shapes.git",
+        "state": {
+          "branch": null,
+          "revision": "cd3983671dfe784609d52723f98013f953d7bb14",
+          "version": "1.0.10"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/kieranb662/CGExtender.git", from: "1.0.1"),
-        .package(url: "https://github.com/kieranb662/Shapes.git", from: "1.0.2"),
+        .package(url: "https://github.com/kieranb662/SwiftUI-Shapes.git", from: "1.0.2"),
         .package(url: "https://github.com/kieranb662/bez.git", from: "1.0.0")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
@@ -24,7 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "Sliders",
-            dependencies: ["CGExtender", "Shapes", "bez"]),
+            dependencies: ["CGExtender", .product(name: "Shapes", package: "SwiftUI-Shapes"), "bez"]),
         .testTarget(
             name: "SlidersTests",
             dependencies: ["Sliders"]),
