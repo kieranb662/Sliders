@@ -28,7 +28,7 @@ public struct PSliderConfiguration {
     /// The maximum value of the sliders range
     public let max: Double
     /// The shape of the slider 
-    public let shape: AnyShape
+    public let shape: Shapes.AnyShape
 }
 // MARK: - Style
 @available(iOS 13.0, macOS 10.15, watchOS 6.0 , *)
@@ -224,7 +224,7 @@ public struct PSlider<S: Shape>: View {
         public let lookUpTable: [CGPoint]
         public let range: ClosedRange<Double>
         public let isDisabled: Bool
-        public let shape: AnyShape
+        public let shape: Shapes.AnyShape
         
         func getDisplacement(closestPoint: CGPoint) -> CGSize {
             return CGSize(width: closestPoint.x - position.x, height: closestPoint.y - position.y)
